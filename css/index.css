@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    height: 100vh;
+
+    background-color: #aac;
+}
+
+#main {
+    float: right;
+    width: calc(100% - 200px);
+    height: 100vh;
+
+    background-color: black;
+    overflow: none;
+
+
+}
+
+#content {
+    margin: 20px;
+
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    background-color: rgba(255,255,255,.1);
+
+    color: white;
+    font-family: sans-serif;
+}
+
+#main canvas {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
